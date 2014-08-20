@@ -263,17 +263,14 @@ CreateTidyDataFrame <- function(rawDataFrame) {
 }
 
 OutputTidyData <- function(tidyDataFrame, outputDirectory) {
-  # Write tidyDataFrame to output directory as tidydata.csv using
-  # write.csv
+  # Write tidyDataFrame to output directory as tidydata.txt using
+  # write.table
   #
   # Args:
   #   tidyDataFrame - the table to write
   #   outputDirectory - directory into which to write tidydata.csv
-  #
-  # Returns:
-  #   TRUE if write is successful, FALSE if not
-  file <- paste(outputDirectory, "tidydata.csv", sep="/")
-  write.csv(tidyDataFrame, file, row.names=FALSE)
+  file <- paste(outputDirectory, "tidydata.txt", sep="/")
+  write.table(tidyDataFrame, file, row.names=FALSE)
 }
 
 ########################################################################

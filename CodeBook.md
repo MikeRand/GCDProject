@@ -1,10 +1,12 @@
-CodeBook for Getting and Cleaning Data Course Project
-=====================================================
+CodeBook for tidydata.txt
+=========================
 
 Michael Rand
 
 See http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 for description of original dataset.
+
+
 
 Variables
 ---------
@@ -98,7 +100,7 @@ Variables
   
 Process
 -------
-* Tidy data created by running run_analysis.R script.
+* tidydata.txt created by running run_analysis.R script.
 * Original set of 561 variables reduced to 66 variables. Only
   variables with either "mean()" or "std()" in the name chosen.
 * Variables renamed to camel case with no special characters

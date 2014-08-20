@@ -14,9 +14,10 @@ How to use
 ----------
 
 1. Open run_analysis.R
-2. Set download directory on line 283
-3. Set tidy data output directory on line 284
+2. Set download directory on line 280
+3. Set tidy data output directory on line 281
 4. Source run_analysis.R
+5. Review output in tidydata.txt
 
 Note: if zip file is already in download directory,
 script will not attempt to download again.
