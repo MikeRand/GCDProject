@@ -8,93 +8,93 @@ for description of original dataset.
 
 Variables
 ---------
-subject - numeric
-  Represents a given individual
-  Factor with 30 levels (1:30)
+1. subject - numeric
+  * Represents a given individual
+  * Factor with 30 levels (1:30)
   
-activity - character
-  Describes what person was doing when measurement taken
-  Factor with 6 character levels
-      WALKING
-      WALKING_UPSTAIRS
-      WALKING_DOWNSTAIRS
-      SITTING
-      STANDING
-      LAYING
+2. activity - character
+  * Describes what person was doing when measurement taken
+  * Factor with 6 character levels
+    - WALKING
+    - WALKING_UPSTAIRS
+    - WALKING_DOWNSTAIRS
+    - SITTING
+    - STANDING
+    - LAYING
 
-variable - character
-  Describes the original data metric averaged in tidy data
-  Factor with 66 character levels
-    tBodyAccMeanX
-    tBodyAccMeanY
-    tBodyAccMeanZ
-    tBodyAccStdX
-    tBodyAccStdY
-    tBodyAccStdZ
-    tGravityAccMeanX
-    tGravityAccMeanY
-    tGravityAccMeanZ
-    tGravityAccStdX
-    tGravityAccStdY
-    tGravityAccStdZ
-    tBodyAccJerkMeanX
-    tBodyAccJerkMeanY
-    tBodyAccJerkMeanZ
-    tBodyAccJerkStdX
-    tBodyAccJerkStdY
-    tBodyAccJerkStdZ
-    tBodyGyroMeanX
-    tBodyGyroMeanY
-    tBodyGyroMeanZ
-    tBodyGyroStdX
-    tBodyGyroStdY
-    tBodyGyroStdZ
-    tBodyGyroJerkMeanX
-    tBodyGyroJerkMeanY
-    tBodyGyroJerkMeanZ
-    tBodyGyroJerkStdX
-    tBodyGyroJerkStdY
-    tBodyGyroJerkStdZ
-    tBodyAccMagMean
-    tBodyAccMagStd
-    tGravityAccMagMean
-    tGravityAccMagStd
-    tBodyAccJerkMagMean
-    tBodyAccJerkMagStd
-    tBodyGyroMagMean
-    tBodyGyroMagStd
-    tBodyGyroJerkMagMean
-    tBodyGyroJerkMagStd
-    fBodyAccMeanX
-    fBodyAccMeanY
-    fBodyAccMeanZ
-    fBodyAccStdX
-    fBodyAccStdY
-    fBodyAccStdZ
-    fBodyAccJerkMeanX
-    fBodyAccJerkMeanY
-    fBodyAccJerkMeanZ
-    fBodyAccJerkStdX
-    fBodyAccJerkStdY
-    fBodyAccJerkStdZ
-    fBodyGyroMeanX
-    fBodyGyroMeanY
-    fBodyGyroMeanZ
-    fBodyGyroStdX
-    fBodyGyroStdY
-    fBodyGyroStdZ
-    fBodyAccMagMean
-    fBodyAccMagStd
-    fBodyBodyAccJerkMagMean
-    fBodyBodyAccJerkMagStd
-    fBodyBodyGyroMagMean
-    fBodyBodyGyroMagStd
-    fBodyBodyGyroJerkMagMean
-    fBodyBodyGyroJerkMagStd
+3. variable - character
+  * Describes the original data metric averaged in tidy data
+  * Factor with 66 character levels
+    - tBodyAccMeanX
+    - tBodyAccMeanY
+    - tBodyAccMeanZ
+    - tBodyAccStdX
+    - tBodyAccStdY
+    - tBodyAccStdZ
+    - tGravityAccMeanX
+    - tGravityAccMeanY
+    - tGravityAccMeanZ
+    - tGravityAccStdX
+    - tGravityAccStdY
+    - tGravityAccStdZ
+    - tBodyAccJerkMeanX
+    - tBodyAccJerkMeanY
+    - tBodyAccJerkMeanZ
+    - tBodyAccJerkStdX
+    - tBodyAccJerkStdY
+    - tBodyAccJerkStdZ
+    - tBodyGyroMeanX
+    - tBodyGyroMeanY
+    - tBodyGyroMeanZ
+    - tBodyGyroStdX
+    - tBodyGyroStdY
+    - tBodyGyroStdZ
+    - tBodyGyroJerkMeanX
+    - tBodyGyroJerkMeanY
+    - tBodyGyroJerkMeanZ
+    - tBodyGyroJerkStdX
+    - tBodyGyroJerkStdY
+    - tBodyGyroJerkStdZ
+    - tBodyAccMagMean
+    - tBodyAccMagStd
+    - tGravityAccMagMean
+    - tGravityAccMagStd
+    - tBodyAccJerkMagMean
+    - tBodyAccJerkMagStd
+    - tBodyGyroMagMean
+    - tBodyGyroMagStd
+    - tBodyGyroJerkMagMean
+    - tBodyGyroJerkMagStd
+    - fBodyAccMeanX
+    - fBodyAccMeanY
+    - fBodyAccMeanZ
+    - fBodyAccStdX
+    - fBodyAccStdY
+    - fBodyAccStdZ
+    - fBodyAccJerkMeanX
+    - fBodyAccJerkMeanY
+    - fBodyAccJerkMeanZ
+    - fBodyAccJerkStdX
+    - fBodyAccJerkStdY
+    - fBodyAccJerkStdZ
+    - fBodyGyroMeanX
+    - fBodyGyroMeanY
+    - fBodyGyroMeanZ
+    - fBodyGyroStdX
+    - fBodyGyroStdY
+    - fBodyGyroStdZ
+    - fBodyAccMagMean
+    - fBodyAccMagStd
+    - fBodyBodyAccJerkMagMean
+    - fBodyBodyAccJerkMagStd
+    - fBodyBodyGyroMagMean
+    - fBodyBodyGyroMagStd
+    - fBodyBodyGyroJerkMagMean
+    - fBodyBodyGyroJerkMagStd
     
-value - numeric
-  Mean of raw data for given subject/activity/variable group
-  Scaled to be between [-1, 1]
+4. value - numeric
+  * Mean of raw data for given subject/activity/variable group
+  * Scaled to be between [-1, 1]
   
 Process
 -------
