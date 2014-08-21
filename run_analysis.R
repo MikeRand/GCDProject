@@ -277,6 +277,6 @@ OutputTidyData <- function(tidyDataFrame, outputDirectory) {
 # Run main program
 ########################################################################
 require(reshape2)
-downloadDirectory <- "~/Projects/gcd/data"         # Use slashes
+downloadDirectory <- getwd()         # Use slashes
 outputDirectory   <- "~/Projects/gcd/GCDProject"   # Use slashes
 Main(downloadDirectory, outputDirectory)
